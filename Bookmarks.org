@@ -26,11 +26,5 @@
 
 * COMMENT Local variables
 # Local variables:
-# eval: (add-hook 'after-save-hook (lambda () (org-html-export-to-html t)) t t)
+# eval: (add-hook 'after-save-hook (lambda () (org-html-export-to-html)) t t)
 # end:
-
-
-
-
-
-
