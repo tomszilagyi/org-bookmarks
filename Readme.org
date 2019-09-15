@@ -1,4 +1,4 @@
-* org-linkz
+* org-bookmarks
 This is my template for managing browser bookmarks in org-mode.
 [[https://user-images.githubusercontent.com/1722672/58349259-19218500-7e63-11e9-9953-e24743fd91ea.png]]
 * Features
@@ -10,10 +10,10 @@ This is my template for managing browser bookmarks in org-mode.
 * Installation
 ** Clone repo
 #+BEGIN_SRC shell
-git clone https://github.com/p-kolacz/org-linkz
+git clone https://github.com/tomszilagyi/org-bookmarks
 #+END_SRC
 ** Configure Emacs
-Change =~/org/= to your folder of choice.
+Change =~/path/to/this/repo= to match reality.
 #+BEGIN_SRC emacs-lisp
   (server-start)  ;; starts emacs as server (if you didn't already)
   (setq org-html-validation-link nil)  ;; removes validation link from exported html file
@@ -21,7 +21,7 @@ Change =~/org/= to your folder of choice.
   (setq org-capture-templates
           '(
             ("o" "Link capture" entry
-             (file+headline "~/org/org-linkz/Linkz.org" "INBOX")
+             (file+headline "~/path/to/this/repo/Bookmarks.org" "INBOX")
              "* %a %U"
              :immediate-finish t)
   ))
@@ -32,7 +32,7 @@ Change =~/org/= to your folder of choice.
 *** Linux
 Add =~/.local/share/applications/org-protocol.desktop= file with following content:
 
-#+BEGIN_SRC 
+#+BEGIN_SRC
 [Desktop Entry]
 Name=org-protocol
 Exec=emacsclient -n %u
@@ -56,4 +56,4 @@ Add bookmark for your favorite browser with following address:
 javascript:location.href="org-protocol:///capture?url="+encodeURIComponent(location.href)+"&title="+encodeURIComponent(document.title||"[untitled page]")
 #+END_SRC
 
-Add =~/org/org-linkz/Linkz.html= to your browser bookmarks.
+Add a link to =Bookmarks.html= to your browser bookmarks.

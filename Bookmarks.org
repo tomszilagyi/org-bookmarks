@@ -1,4 +1,4 @@
-#+TITLE: Linkz
+#+TITLE: Bookmarks
 #+HTML_DOCTYPE: html5
 #+OPTIONS: toc:1 num:nil val:nil html-style:nil H:1
 #+HTML_HEAD: <link rel="stylesheet" href="css/theme.css">
