@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400i,700,700i&subset=latin-ext');
-@import url('https://fonts.googleapis.com/css?family=Lancelot&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Menlo&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Times&subset=latin-ext');
 
 /* https://lospec.com/palette-list/ink */
 
@@ -8,11 +8,11 @@
 html { font-size: 10px; }
 
 body {
-	font-family: 'Lancelot', cursive;
+	font-family: 'Times', serif;
 	font-size: 2rem;
 	font-weight: normal;
-	background: #1f1f29;
-	color: #96a2b3;
+	background: #101010;
+	color: #e78c45;
 	overflow-y: scroll;
 }
 
@@ -87,12 +87,12 @@ h4 {
 	font-size: 1em;
 	width: 500px;
 	padding: 5px;
-	font-family: 'Ubuntu Mono', monospace;
-	background: #413a42;
+	font-family: 'Menlo', monospace;
+	background: #202020;
 	color: #eaf0d8;
 	margin: 0 auto;
 	display: block;
-	border: 1px dashed #596070;
+	border: 1px dashed #484848;
 }
 
 ul {
@@ -103,16 +103,17 @@ ul {
 a {
 	color: #eaf0d8;
 	text-decoration: none;
-	font-family: 'Ubuntu Mono', monospace;
-	font-size: 2rem;
-	line-height: 2.1rem;
+	font-family: 'Menlo', monospace;
+	font-size: 1.6rem;
+	line-height: 1.7rem;
 }
 
 .timestamp {
-	color: #96a2b3;
+	color: #646464;
 	font-size: 1.5rem;
 }
 #postamble {
+	color: #646464;
 	text-align: center;
 	margin: 2em 0 1em 0;
 }

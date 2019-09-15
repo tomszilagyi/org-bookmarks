@@ -21,7 +21,7 @@ Change =~/path/to/this/repo= to match reality.
   (setq org-capture-templates
           '(
             ("o" "Link capture" entry
-             (file+headline "~/path/to/this/repo/Bookmarks.org" "INBOX")
+             (file+headline "~/path/to/this/repo/Bookmarks.org" "Unsorted")
              "* %a %U"
              :immediate-finish t)
   ))
